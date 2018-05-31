@@ -1,0 +1,30 @@
+﻿打开appsettings.json文件
+
+将数据库连接串中的IP地址更换为oracle docker的容器名称(这里是oracle_11g)
+目前在本地的开发环境中貌似不支持服务器名称的连接串.
+
+将项目发布到publish文件夹
+
+将整个publish文件夹上传到/root，root是用户名.
+
+登录远程服务器上，切换到/root文件夹下.
+
+创建Dockerfile并写入以下内容:
+
+FROM microsoft/dotnet
+WORKDIR /publish
+ENTRYPOINT ["dotnet", "WebApplicationDemo.dll"]
+
+注意：WebApplicationDemo.dll是项目的主程序入口.
+
+运行命令
+docker build -t dotnetcore .
+
+docker run --name 'dotnetcore' --network='bridge' --link oracle_11g:oracle_11g -v "/root/publish":"/publish" -p 80:80 -e "ASPNETCORE_URLS=http://+:80" dotnetcore
+
+注意：oracle_11g 是 oracle docker 容器的名字.
+
+以后更新代码只需要将本机publish里面的代码都copy到/root/publish中，重启docker的dotnet容器即可.
+
+
+详细教程: https://www.jianshu.com/p/d0fe86b88353

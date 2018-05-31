@@ -1,0 +1,11 @@
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\bin\Debug\netcoreapp2.0\WebApplicationDemo.deps.json
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\bin\Debug\netcoreapp2.0\WebApplicationDemo.runtimeconfig.json
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\bin\Debug\netcoreapp2.0\WebApplicationDemo.runtimeconfig.dev.json
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\bin\Debug\netcoreapp2.0\WebApplicationDemo.dll
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\bin\Debug\netcoreapp2.0\WebApplicationDemo.pdb
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\obj\Debug\netcoreapp2.0\WebApplicationDemo.csprojAssemblyReference.cache
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\obj\Debug\netcoreapp2.0\WebApplicationDemo.csproj.CoreCompileInputs.cache
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\obj\Debug\netcoreapp2.0\WebApplicationDemo.AssemblyInfoInputs.cache
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\obj\Debug\netcoreapp2.0\WebApplicationDemo.AssemblyInfo.cs
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\obj\Debug\netcoreapp2.0\WebApplicationDemo.dll
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo\obj\Debug\netcoreapp2.0\WebApplicationDemo.pdb

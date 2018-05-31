@@ -1,0 +1,5 @@
+D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=WebApplicationDemo
+--content-root=D:\VisualStudioWorkspace\WebApplicationDemo\WebApplicationDemo
+--file=
